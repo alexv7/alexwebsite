@@ -1,0 +1,103 @@
+.nav {
+  line-height: 3;
+  width: 100%;
+}
+
+#alex {
+  padding-left: 15px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  height: 200px;
+}
+
+#navi.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+
+}
+
+
+
+.nav li {
+  display: inline;
+}
+
+ul.pull-left {
+  padding-left: 0px;
+}
+
+.pull-left a {
+  padding-left: 0px;
+}
+
+#jumbo {
+  background-image:url("https://pixabay.com/static/uploads/photo/2015/03/30/14/15/coding-699395_960_720.jpg");
+  height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.jumbotron .container{
+  text-align: center;
+}
+
+#my_image {
+  margin-top: 260px;
+  color: black;
+  text-align: center;
+  font-weight: 200px;
+  position: relative;
+}
+
+#my_p {
+  text-align: center;
+  font-weight: 700;
+  color: #2EF;
+  font-size: 30px;
+}
+
+.col-md-4 img{
+  height: 250px;
+  width: 360px;
+}
+
+.learn-more {
+  background-color: #efefef;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.Projects {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 30px;
+}
+
+.Projects h2 {
+    color: #393c3d;
+    font-size: 25px;
+}
+
+.Projects p {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
