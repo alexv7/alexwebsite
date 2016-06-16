@@ -1,217 +1,197 @@
 <html>
 
-  <head>
+<head>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="alexpf2css.css">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="alexpf2css.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
+</head>
 
-  <body>
+<body>
+<div class="everything">
 
-    <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <%#= link_to "Group Shalex", welcome_index_path, class: "navbar-brand" %>
-                </div> -->
+  <div class="jumbotron" id="jumbo">
+    <div class="navbar-header">
+      <div  id="navi" class="container">
+        <ul class="pull-left">
+          <li id ="alex"><a href="#linktoprojects">Alex Projects</a></li>
+        </ul>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" id="alexright">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-
-                <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right"> -->
-
-                    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                            <div class="container"> -->
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <!-- <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
-
-
-
-    <div class="jumbotron" id="jumbo">
-      <div class="navbar-header">
-        <div  id="navi" class="container">
-          <ul class="pull-left">
-            <li id ="alex"><a href="#">Alex Projects</a></li>
+            <li><a href="mailto:alexvarjabedian7@gmail.com" target="_blank">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/alex-varjabedian-56421369" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/alexv7" target="_blank">Github</a></li>
           </ul>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right" id="alexright">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <li><a href="mailto:alexvarjabedian7@gmail.com" target="_blank">Email</a></li>
-              <li><a href="https://www.linkedin.com/in/alex-varjabedian-56421369" target="_blank">Linkedin</a></li>
-              <li><a href="https://github.com/alexv7" target="_blank">Github</a></li>
-            </ul>
         </div>
       </div>
     </div>
 
-      <div class="container">
-        <!-- <p><img src="./assets/images/wyncode_profile_pic.jpg" id="my_image"></p> -->
-        <%= image_tag 'wyncode_profile_pic', width: '180', height: '220', id: 'my_image' %>
-        <p id="my_p">Full Stack Web Developer</p>
+    <div class="container">
+      <!-- <p><img src="./assets/images/wyncode_profile_pic.jpg" id="my_image"></p> -->
+      <%= image_tag 'wyncode_profile_pic', width: '180', height: '220', id: 'my_image' %>
+      <p id="my_p">Full Stack Web Developer</p>
+    </div>
+  </div>
+
+  <div class="aboutmesection">
+    <div class="container">
+      <h2>About Me</h2>
+      <p id="aboutme">
+        As a Wyncode Academy Coding School graduate I have successfully developed numerous web applications working both in groups and
+        individually using lean startup and agile methodologies. During this time I have learned and utilized the following technologies:
+        Ruby, Rails, JavaScript, jQuery, Ajax, HTML, CSS, Bootstrap, Git, Github,
+        PostgreSQL, Heroku, GoogleMaps, Yahoo Finance, Expedia and numerous RESTful API’s that I have
+        integrated into live web applications. With a knack for software development and technology, I love to create
+        and work on a wide range of projects, design appealing websites and test new ideas. Seeing a new product come to life is exciting.
+        Seeing others successfully use a product I designed is a spiritual
+        experience in gratitude. Are you excited to work on a new project? Let's embark on a new journey and build it together. Reach out!
+      </p>
+    </div>
+  </div>
+
+  <div id="Projects" class="Projects">
+    <div class="container">
+      <a name="linktoprojects"></a>
+      <h2>Projects</h2>
+
+      <div class="learn-more">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Tictactoe</h3>
+            <p>Think you are good enough to beat me? Let's Play!</p>
+            <p><a href="https://github.com/alexv7/tic-tac-toe-rb-002" target="_blank"><img src="./assets/tictactoe.jpeg"></a></p>
+            <p><a href="https://github.com/alexv7/tic-tac-toe-rb-002">Learn more</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Voter Sim</h3>
+            <p>This is a voter simulation built using the 4 main CRUD operations.</p>
+            <p><a href="https://github.com/alexv7/votersimproject" target="_blank"><img src="./assets/voting.jpeg"></a></p>
+            <p><a href="https://github.com/alexv7/votersimproject">Learn more</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Site Search</h3>
+            <p>This is a site search feature with basic searching algorithm. </p>
+            <p><a href="https://github.com/alexv7/Sitesearch" target="_blank"><img src="./assets/sitesearch.jpeg"></a></p>
+            <p><a href="https://github.com/alexv7/Sitesearch">Learn more</a></p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div id="Projects" class="Projects">
-      <div class="container">
-        <h2>Projects</h2>
-          <p>Below is a list of completed and upcoming projects.</p>
-
-          <div class="learn-more">
-            <div class="container">
-              <div class="row">
-
-                <div class="col-md-4">
-                  <h3>Tictactoe</h3>
-                    <p>Think you are good enough to beat me? Let's Play!</p>
-                    <p><a href="https://github.com/alexv7/tic-tac-toe-rb-002">Learn more</a></p>
-                </div>
-
-                <div class="col-md-4">
-                  <h3>Voter Sim</h3>
-                    <p>This is a voter simulation built using the 4 main CRUD operations.</p>
-                    <p><a href="https://github.com/alexv7/votersimproject">Learn more</a></p>
-                </div>
-
-                <div class="col-md-4">
-                  <h3>Site Search</h3>
-                    <p>This is a site search feature with basic searching algorithm. </p>
-                    <p><a href="https://github.com/alexv7/Sitesearch">Learn more</a></p>
-                </div>
-
-            </div>
-          </div>
-          </div>
-
-            <div class="row">
-
-               <div class="col-md-4">
-                   <a href="https://github.com/alexv7/tic-tac-toe-rb-002" target="_blank"><img src="./assets/tictactoe.jpeg"></a>
-               </div>
-
-               <div class="col-md-4">
-                   <a href="https://github.com/alexv7/votersimproject" target="_blank"><img src="./assets/voting.jpeg"></a>
-               </div>
-
-               <div class="col-md-4">
-                   <a href="https://github.com/alexv7/Sitesearch" target="_blank"><img src="./assets/sitesearch.jpeg"></a>
-               </div>
-
-            </div>
-      </div>
-    </div>
+  </div>
 
 
 
   <div id="Projects" class="Projects">
     <div class="container">
 
-        <div class="learn-more">
-          <div class="container">
-            <div class="row">
+      <div class="learn-more">
+        <div class="row">
 
-              <div class="col-md-4">
-                <h3>Wynshop</h3>
-                  <p>Wynshop is a mini amazon clone. It features product listings, review creation, and password authentication</p>
-                  <p><a href="https://github.com/alexv7/Wynshop_Master1">Learn more</a></p>
-              </div>
+          <div class="col-md-4">
+            <h3>Wynshop</h3>
+            <p>Wynshop features product listings, review creation, and password authentication.</p>
+            <p><a href="https://github.com/alexv7/Wynshop_Master1" target="_blank"><img src="./assets/wynshop.png"></a></p>
+            <p><a href="https://github.com/alexv7/Wynshop_Master1">Learn more</a></p>
 
-              <div class="col-md-4">
-                <h3>Oauth </h3>
-                  <p>Facebook login feature implemented for a web application.</p>
-                  <p><a href="https://github.com/alexv7/oauth_example">Learn more</a></p>
-              </div>
+          </div>
 
-              <div class="col-md-4">
-                <h3>Loneliest Chatroom</h3>
-                  <p>Have you ever talked to yourself? Good! This is an app that lets you talk to yourself all day!</p>
-                  <p><a href="https://github.com/alexv7/Loneliest-Chatroom-master">Learn more</a></p>
-              </div>
+          <div class="col-md-4">
+            <h3>Aircnc</h3>
+            <p>Travelling to a new city and need a place to stay? Here is an Airbnb clone using Ruby on Rails.</p>
+            <p><a href="https://github.com/alexv7/aircnc" target="_blank"><img src="./assets/aircnc.jpeg"></a></p>
+            <p><a href="https://github.com/alexv7/aircnc">Learn more</a></p>
+          </div>
 
+          <div class="col-md-4">
+            <h3>Loneliest Chatroom</h3>
+            <p>Have you ever talked to yourself? Good! This is an app that lets you talk to yourself all day!</p>
+            <p><a href="https://github.com/alexv7/Loneliest-Chatroom-master" target="_blank"><img src="./assets/loneliest_chatroom.jpeg"></a></p>
+            <p><a href="https://github.com/alexv7/Loneliest-Chatroom-master">Learn more</a></p>
           </div>
         </div>
       </div>
-
-          <div class="row">
-
-             <div class="col-md-4">
-                 <a href="https://github.com/alexv7/Wynshop_Master1" target="_blank"><img src="./assets/wynshop.png"></a>
-             </div>
-
-             <div class="col-md-4">
-                 <a href="https://github.com/alexv7/oauth_example" target="_blank"><img src="./assets/oauthfacebook.png"></a>
-             </div>
-
-             <div class="col-md-4">
-                 <a href="https://github.com/alexv7/Loneliest-Chatroom-master" target="_blank"><img src="./assets/loneliest_chatroom.jpeg"></a>
-             </div>
-
-          </div>
     </div>
   </div>
 
 
 
 
-<div id="Projects" class="Projects">
-  <div class="container">
+  <div id="Projects" class="Projects">
+    <div class="container">
 
       <div class="learn-more">
-        <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <h3>Oauth </h3>
+            <p>Facebook login feature implemented for a web application.</p>
+            <p><a href="https://github.com/alexv7/oauth_example" target="_blank"><img src="./assets/oauthfacebook.png"></a></p>
+            <p><a href="https://github.com/alexv7/oauth_example">Learn more</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Mailer</h3>
+            <p>A mailer app that sends automatic email using multiple servers.</p>
+            <p><a href="https://github.com/alexv7/mailer_app" target="_blank"><img src="./assets/mailer_app.jpeg"></a></p>
+            <p><a href="https://github.com/alexv7/mailer_app">Learn more</a></p>
+
+          </div>
+
+          <div class="col-md-4">
+            <h3>Couplr</h3>
+            <p>Couplr is an app that connects couples who have similar interests.</p>
+            <p><a href="http://www.couplrapp.co" target="_blank"><img src="./assets/couplr.jpeg"></a></p>
+            <p><a href="http://www.couplrapp.co" target="_blank">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="getintouch">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="page-header">
+            Get In Touch
+          </h1>
+          <h3>
+            Have an interesting idea and need help building it? Reach out to me and let's get started!
+          </h3>
+          <br>
+
           <div class="row">
 
             <div class="col-md-4">
-              <h3>Aircnc</h3>
-                <p>This is an Airbnb clone using Ruby on Rails.</p>
-                <p><a href="https://github.com/alexv7/aircnc">Learn more</a></p>
+              <a href="mailto:alexvarjabedian7@gmail.com"><i class="fa fa-envelope-o"></i></a>
+              <a href="mailto:alexvarjabedian7@gmail.com"><h3>Email </h3></a>
             </div>
 
             <div class="col-md-4">
-              <h3>Mailer</h3>
-                <p>A mailer app that sends automatic email using multiple servers.</p>
-                <p><a href="https://github.com/alexv7/mailer_app">Learn more</a></p>
+              <a href="https://www.linkedin.com/in/alex-varjabedian-56421369"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/alex-varjabedian-56421369"><h3>Linkedin</h3></a>
             </div>
 
             <div class="col-md-4">
-              <h3>Couplr</h3>
-                <p>Couplr is an app that connects couples who have similar interests.</p>
-                <p><a href="http://www.couplrapp.co" target="_blank">Learn more</a></p>
+              <a href="https://github.com/alexv7"><i class="fa fa-github"></i></a>
+              <a href="https://github.com/alexv7"><h3>Github</h3></a>
             </div>
-
+          </div>
         </div>
       </div>
-      </div>
-
-        <div class="row">
-
-           <div class="col-md-4">
-               <a href="https://github.com/alexv7/aircnc" target="_blank"><img src="./assets/aircnc.jpeg"></a>
-           </div>
-
-           <div class="col-md-4">
-               <a href="https://github.com/alexv7/mailer_app" target="_blank"><img src="./assets/mailer_app.jpeg"></a>
-           </div>
-
-           <div class="col-md-4">
-               <a href="http://www.couplrapp.co" target="_blank"><img src="./assets/couplr.jpeg"></a>
-           </div>
-
-        </div>
+    </div>
   </div>
 </div>
 
-  </body>
+</body>
 </html>
