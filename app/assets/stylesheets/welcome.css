@@ -1,4 +1,4 @@
-.nav {
+.navbar-header {
   line-height: 3;
   width: 100%;
 }
@@ -7,11 +7,11 @@
   padding-left: 15px;
 }
 
-.nav a {
-  color: #5a5a5a;
+.navbar-header a {
+  color: #d9d9d9;
   font-size: 20px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 2px 10px;
   text-transform: uppercase;
   height: 200px;
 }
@@ -26,8 +26,7 @@
 }
 
 
-
-.nav li {
+.navbar-header li {
   display: inline;
 }
 
@@ -40,12 +39,13 @@ ul.pull-left {
 }
 
 #jumbo {
-  background-image:url("https://pixabay.com/static/uploads/photo/2015/03/30/14/15/coding-699395_960_720.jpg");
-  height: 600px;
+  background-image:url('/assets/macbook.jpg');
+  /*height: 711px;*/
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
+  padding-top: 0;
 }
 
 .jumbotron .container{
@@ -62,8 +62,8 @@ ul.pull-left {
 
 #my_p {
   text-align: center;
-  font-weight: 700;
-  color: #2EF;
+  font-weight: 900;
+  color: #191125;
   font-size: 30px;
 }
 

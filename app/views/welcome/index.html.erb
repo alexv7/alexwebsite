@@ -4,27 +4,64 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="alexpf2css.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
 
   <body>
-    <div class="nav">
-      <div  id="navi" class="container">
-        <ul class="pull-left">
-          <li id ="alex"><a href="#">Alex codes for you</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="mailto:alexvarjabedian7@gmail.com" target="_blank">Email</a></li>
-          <li><a href="https://www.linkedin.com/in/alex-varjabedian-56421369" target="_blank">Linkedin</a></li>
-          <li><a href="https://github.com/alexv7" target="_blank">Github</a></li>
-        </ul>
+
+    <!-- <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <%#= link_to "Group Shalex", welcome_index_path, class: "navbar-brand" %>
+                </div> -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+
+                <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right"> -->
+
+                    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                            <div class="container"> -->
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <!-- <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
+
+
+
+    <div class="jumbotron" id="jumbo">
+      <div class="navbar-header">
+        <div  id="navi" class="container">
+          <ul class="pull-left">
+            <li id ="alex"><a href="#">Alex Projects</a></li>
+          </ul>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <li><a href="mailto:alexvarjabedian7@gmail.com" target="_blank">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/alex-varjabedian-56421369" target="_blank">Linkedin</a></li>
+              <li><a href="https://github.com/alexv7" target="_blank">Github</a></li>
+            </ul>
+        </div>
       </div>
     </div>
 
-    <div class="jumbotron" id="jumbo">
       <div class="container">
-          <p><img src="./assets/images/wyncode_profile_pic.jpg" id="my_image"></p>
-          <p id="my_p">Full Stack Web Developer</p>
+        <!-- <p><img src="./assets/images/wyncode_profile_pic.jpg" id="my_image"></p> -->
+        <%= image_tag 'wyncode_profile_pic', width: '180', height: '220', id: 'my_image' %>
+        <p id="my_p">Full Stack Web Developer</p>
       </div>
     </div>
 
@@ -39,7 +76,7 @@
 
                 <div class="col-md-4">
                   <h3>Tictactoe</h3>
-                    <p>This is a tictactoe game I built as a REPL game.</p>
+                    <p>Think you are good enough to beat me? Let's Play!</p>
                     <p><a href="https://github.com/alexv7/tic-tac-toe-rb-002">Learn more</a></p>
                 </div>
 
