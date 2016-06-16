@@ -12,7 +12,7 @@
 }
 
 #alexright {
-  padding-top: 9px;
+  padding-top: 16px;
 }
 
 .navbar-header a {
@@ -29,6 +29,7 @@
   margin-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 115px;
   width: 100%;
 
 }
@@ -58,13 +59,13 @@ ul.pull-left {
 
 #jumbo {
   background-image:url('/assets/macbook.jpg');
-  /*height: 711px;*/
+  /*height: 800px;*/
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-top: 0;
+  padding-top: 0px;
 }
 
 .jumbotron .container{
