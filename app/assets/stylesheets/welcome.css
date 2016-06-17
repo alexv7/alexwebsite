@@ -15,6 +15,11 @@
   padding-top: 16px;
 }
 
+.collapse.in {
+  display: inline-table !important;
+  text-align: center;
+}
+
 .navbar-header a {
   color: #d9d9d9;
   font-size: 24px;
