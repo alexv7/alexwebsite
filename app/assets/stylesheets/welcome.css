@@ -83,7 +83,7 @@ ul.pull-left {
 }
 
 #jumbo {
-  background-image:url('/assets/macbook.jpg');
+  background-image: url("/assets/macbook.jpg");
   /*height: 800px;*/
   background-position: top;
   background-repeat: no-repeat;
